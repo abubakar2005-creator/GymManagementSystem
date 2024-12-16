@@ -1,0 +1,108 @@
+body {
+    font-family:  Tahoma, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1 {
+    margin-top: 10px;
+}
+
+main {
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 15px;
+}
+
+main h2 {
+    color: transparent white;
+    margin-bottom: 0.5rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th, table td {
+    border: 1px solid grey;
+    padding: 10 px;
+    text-align: center;
+    color: gray
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+#home {
+    background-image: url(./hom.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 20px;
+    color: white; 
+}
+
+#about {
+    background-image: url(./aboutus.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+
+#membership {
+    background-image: url(./membership.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body id="home">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About Us</a></li>
+                <li><a href="{{ url_for('membership') }}">Membership</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to FitLife Gym</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Our Mission</h2>
+            <p>Helping you achieve your fitness goals through world-class facilities and professional trainers.</p>
+        </section>
+        <section>
+            <h2>Services</h2>
+            <ul>
+                <li>Personal Training</li>
+                <li>Group Classes</li>
+                <li>State-of-the-art Equipment</li>
+                <li>Nutrition Counseling</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 FitLife Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>
